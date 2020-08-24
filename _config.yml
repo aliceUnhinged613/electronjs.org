@@ -50,3 +50,5 @@ exclude_from_localization:
   - lib
   - script
 parallel_localization: true
+
+theme: jekyll-theme-cayman
