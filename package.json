@@ -102,7 +102,7 @@
     "lint-staged": "^10.2.11",
     "mocha": "^8.1.2",
     "nock": "^13.0.4",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.4",
     "prettier": "^2.1.1",
     "simplecrawler": "^1.1.9",
