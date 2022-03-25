@@ -21,7 +21,9 @@
     "lint": "npm run lint:js && npm run lint:style",
     "lint:js": "eslint . --fix",
     "lint:style": "stylelint 'public/styles/*.scss' --fix",
-    "heroku-postbuild": "npm run precompile-assets"
+    "heroku-postbuild": "npm run precompile-assets",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -54,7 +56,7 @@
     "electron-releases": "^3.495.0",
     "electron-userland-reports": "1.6.0",
     "express": "^4.17.1",
-    "express-hbs": "^2.3.4",
+    "express-hbs": "^2.3.5",
     "express-request-language": "^1.1.15",
     "fast-memoize": "^2.5.2",
     "feed": "^4.2.1",
@@ -86,7 +88,8 @@
     "semver": "^7.3.2",
     "set-query-string": "^2.2.0",
     "ultimate-pagination": "^1.0.0",
-    "yubikiri": "^2.0.0"
+    "yubikiri": "^2.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "browser-sync": "^2.26.12",
@@ -121,5 +124,6 @@
   "lint-staged": {
     "*.js": "npm run lint:js",
     "*.scss": "npm run lint:style"
-  }
+  },
+  "snyk": true
 }
