@@ -53,7 +53,7 @@
     "electron-markdown": "^0.8.0",
     "electron-releases": "^3.495.0",
     "electron-userland-reports": "1.6.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-hbs": "^2.3.4",
     "express-request-language": "^1.1.15",
     "fast-memoize": "^2.5.2",
@@ -89,7 +89,7 @@
     "yubikiri": "^2.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.29.1",
     "chai": "^4.2.0",
     "chai-cheerio": "^1.0.0",
     "check-for-leaks": "^1.2.1",
